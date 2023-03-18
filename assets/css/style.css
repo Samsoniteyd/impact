@@ -1,0 +1,83 @@
+#first{
+    background: rgb(0, 122, 72);
+}
+
+#second{
+    background: rgb(1, 143, 84);
+    height: 30rem;
+
+    
+    
+}
+
+#second .ben .container-fluid .row .col-md-8{
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-top: 4rem;
+}
+
+#second .ben .container-fluid .row .col-md-4{
+    margin-left: 10rem;
+    
+}
+
+.container .row{
+    /* border: 2px solid blue; */
+}
+.container .row .col-md-3{
+    
+    background: rgb(0, 122, 72);
+    /* border: 2px solid red; */
+
+    margin-top: 4rem;
+    height: 8rem;
+    margin-right: 3rem;
+    width: 20%;
+    /* border-radius: 0% 100% 8% 92% / 89% 0% 100% 11% ; */
+    border-radius: 12px;
+    box-shadow: inset 23px 23px 46px rgb(0, 122, 72),
+    inset -23px -23px 46px rgb(0, 122, 72);
+    text-align: center;
+
+}
+
+#second .navbar .nav-item .dropdown-menu{
+    background: rgb(1, 143, 84)
+}
+
+/* #devine .carousel-inner .carousel-item{
+    margin-top: 50rem;
+} */
+
+/* #devine .carousel-inner .carousel-item img{
+    height: 20rem;
+}   */
+
+
+
+
+@media only screen and (max-width:520px){
+
+
+    #second{
+        background: rgb(1, 143, 84);
+        height: 60rem;
+    
+        
+        
+    }
+    
+    #second .ben .container-fluid .row .col-md-8{
+        text-align: center;
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-top: 4rem;
+    }
+    
+    #second .ben .container-fluid .row .col-md-4{
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+}
